@@ -15,6 +15,18 @@ body {
 
 .logo-brand {
     width: 50px;
+    position: relative;
+    top: 25px;
+    left: 0;
+}
+
+@media (max-width: 991px) {
+    .logo-brand {
+        width: 60px;
+        position: relative;
+        top: 5px;
+        left: 0;
+    }
 }
 
 .menu-cell {
