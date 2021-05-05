@@ -39,3 +39,19 @@ body {
 .menu-cell:focus {
     outline: none;
 }
+
+#hero {
+    background-image: url('/img/TiendaPanaderia_2.png');
+    background-size:cover;
+    min-height: 700px;
+    color: white;
+
+}
+
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto  60px auto;
+    padding-top:100px ;
+    text-align: center;
+}
