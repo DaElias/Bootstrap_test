@@ -2,22 +2,34 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1{
+h1 {
     font-size: 66px;
     font-weight: 600;
     line-height: 80px;
 }
 
-p{
+p {
     font-size: 18px;
     color: #999;
     margin-bottom: 0;
 }
 
-.topmargin-xs{margin-top: 15px;}
-.topmargin-sm{margin-top: 30px;}
-.topmargin-lg{margin-top: 60px;}
+.navbar {
+    height: 10px;
 
+}
+
+.topmargin-xs {
+    margin-top: 15px;
+}
+
+.topmargin-sm {
+    margin-top: 30px;
+}
+
+.topmargin-lg {
+    margin-top: 60px;
+}
 
 .navbar {
     background-color: #f7f7f7;
@@ -44,6 +56,12 @@ p{
         top: 5px;
         left: 0;
     }
+    /* Bugs de la derecha blanca para telefonos*/
+    .buggs {
+        position: absolute;
+        right: 0;
+        right: 0;
+    }
 }
 
 .menu-cell {
@@ -59,19 +77,18 @@ p{
 
 #hero {
     background-image: url('/img/TiendaPanaderia_2.png');
-    background-size:cover;
+    background-size: cover;
     min-height: 700px;
     color: white;
-
 }
-#hero p{
+
+#hero p {
     color: white;
 }
 
-
-.content-center{
+.content-center {
     max-width: 800px;
-    margin: 0 auto  60px auto;
-    padding-top:100px ;
+    margin: 0 auto 60px auto;
+    padding-top: 100px;
     text-align: center;
 }
