@@ -14,10 +14,13 @@ p {
     margin-bottom: 0;
 }
 
+/* Reducir el tamaño de la navbar un poco*/
+
 .navbar {
     height: 10px;
-
 }
+
+
 
 .topmargin-xs {
     margin-top: 15px;
