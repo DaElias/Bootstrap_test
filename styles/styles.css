@@ -14,14 +14,6 @@ p {
     margin-bottom: 0;
 }
 
-/* Reducir el tamaño de la navbar un poco*/
-
-.navbar {
-    height: 10px;
-}
-
-
-
 .topmargin-xs {
     margin-top: 15px;
 }
@@ -52,6 +44,13 @@ p {
     left: 0;
 }
 
+@media (min-width: 900px) {
+    .navbar {
+        height: 10px;
+        z-index: 1000;
+    }
+}
+
 @media (max-width: 991px) {
     .logo-brand {
         width: 60px;
@@ -65,6 +64,8 @@ p {
         right: 0;
         right: 0;
     }
+    /* Reducir el tamaño de la navbar un poco*/
+ 
 }
 
 .menu-cell {
