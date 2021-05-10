@@ -151,8 +151,9 @@ p {
     min-width: 160px;
     border-radius: 2px;
     display: inline-block;
+    transition: .5s;
 }
-
+.btn:hover{ font-size: 15px;}
 .btn-light {
     background-color: #ffff;
     color: #1a1a1a;
