@@ -8,10 +8,23 @@ h1 {
     line-height: 80px;
 }
 
+a:hover, a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
 p {
     font-size: 18px;
     color: #999;
     margin-bottom: 0;
+}
+
+section {
+    padding: 120px 0;
 }
 
 .topmargin-xs {
@@ -153,11 +166,20 @@ p {
     display: inline-block;
     transition: .5s;
 }
-.btn:hover{ font-size: 15px;}
+
+.btn:hover {
+    font-size: 15px;
+}
+
 .btn-light {
     background-color: #ffff;
     color: #1a1a1a;
     border: 2px solid #ffff;
+}
+
+.btn i {
+    font-size: 14px;
+    margin-left: 5px;
 }
 
 .btn ion-icon {
@@ -165,4 +187,42 @@ p {
     margin-left: 5px;
     position: relative;
     top: 2px;
+}
+
+.img-portafolio {
+    height: 600px;
+}
+
+.portafolio-coontainer {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.portafolios-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 999;
+}
+
+.portafolios-details a h2, .portafolios-details a p {
+    color: #ffff;
+}
+
+.portafolios-details h2 {
+    margin-bottom: 0px;
+}
+/* Efecto de transiciones*/
+.portafolio-coontainer img {
+    -moz-transition: all .8s;
+    -webkit-transition: all .8s;
+    transition: all .8s;
+}
+
+.portafolio-coontainer:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
