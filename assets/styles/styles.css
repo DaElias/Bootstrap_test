@@ -27,6 +27,10 @@ section {
     padding: 120px 0;
 }
 
+.bg-light-grey {
+    background-color: #f5f5f5;
+}
+
 .topmargin-xs {
     margin-top: 15px;
 }
@@ -56,76 +60,10 @@ section {
     top: 25px;
     left: 0;
 }
-.text-darks, .text-darks:hover, .text-darks:active{
+
+.text-darks, .text-darks:hover, .text-darks:active {
     color: #1a1a1a;
 }
-@media (min-width: 991px) {
-    .navbar {
-        height: 10px;
-        z-index: 1000;
-    }
-}
-
-@media (max-width: 991px) {
-    .logo-brand {
-        width: 60px;
-        position: relative;
-        top: 5px;
-        left: 0;
-    }
-    /* Bugs de la derecha blanca para telefonos*/
-    .buggs {
-        position: absolute;
-        right: 0;
-        right: 0;
-    }
-    /* Reducir el tamaño de la navbar un poco*/
-    .img-portafolio {
-        width: 600px;
-        height: 300px;
-    }
-}
-
-/* X-Small devices (portrait phones, less than 576px) */
-
-@media (max-width: 575.98px) {
-    h1 {
-        font-size: 40px;
-        line-height: normal;
-    }
-    
-}
-
-/*
- Small devices (landscape phones, less than 768px)
-*/
-
-@media (max-width: 767.98px) {
- 
-}
-
-/*
-// Medium devices (tablets, less than 992px)
-*/
-
-@media (max-width: 991.98px) {}
-
-/*
-// Large devices (desktops, less than 1200px)
-*/
-
-@media (max-width: 1199.98px) {}
-
-/*
-// X-Large devices (large desktops, less than 1400px)
-*/
-
-@media (max-width: 1399.98px) {}
-
-/*
-// XX-Large devices (larger desktops)
-// No media query since the xxl breakpoint has no upper bound on its width
-*/
 
 .menu-cell {
     position: absolute;
@@ -224,7 +162,9 @@ section {
 .portafolios-details h2 {
     margin-bottom: 0px;
 }
+
 /* Efecto de transiciones*/
+
 .portafolio-coontainer img {
     -moz-transition: all .8s;
     -webkit-transition: all .8s;
@@ -235,6 +175,30 @@ section {
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+}
+
+.member-container {
+    position: relative;
+    margin: 10px 0;
+}
+
+.member-details {
+    position: absolute;
+    color: #ffff;
+    bottom: 0px;
+    left: 20px;
+}
+.member-details span{
+    font-size: 14px;
+}
+.member-details ul li a ion-icon{
+    color: #f7f7f7;
+    padding: 0 1px;
+    font-size: 22px;
+}
+.logo-youtube:hover{
+    transition: .6s;
+    color: red;
 }
 
 @media (min-width: 991px) {
@@ -271,16 +235,13 @@ section {
         font-size: 40px;
         line-height: normal;
     }
-    
 }
 
 /*
  Small devices (landscape phones, less than 768px)
 */
 
-@media (max-width: 767.98px) {
- 
-}
+@media (max-width: 767.98px) {}
 
 /*
 // Medium devices (tablets, less than 992px)
