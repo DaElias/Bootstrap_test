@@ -188,17 +188,40 @@ section {
     bottom: 0px;
     left: 20px;
 }
-.member-details span{
+
+.member-details span {
     font-size: 14px;
 }
-.member-details ul li a ion-icon{
+
+.member-details ul li a ion-icon {
     color: #f7f7f7;
     padding: 0 1px;
     font-size: 22px;
 }
-.logo-youtube:hover{
+
+.logo-youtube:hover {
     transition: .6s;
     color: red;
+}
+
+.pricing-container {
+    margin: 15px;
+}
+
+.plans {
+    padding: 50px 80px;
+    border-radius: 2px;
+    min-width: 450px;
+}
+
+.plans-light {
+    background-color: #ffff;
+    border: 2px solid black;
+}
+
+.plans-dark {
+    background: black;
+    border: 2px solid white;
 }
 
 @media (min-width: 991px) {
